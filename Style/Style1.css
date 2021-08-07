@@ -1,0 +1,33 @@
+/*
+External stylesheet
+*/
+body
+{
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: right top;
+    background-color: rgb(228, 236, 236);    
+}
+.logo
+{
+    width: 60px;
+    height: 60px;
+}
+.left
+{
+    display: inline-block;
+    width: 30%;
+}
+.right
+{
+    display: inline-block;
+    width: 50%;
+}
+ 
+
+img
+{
+    object-fit: cover;
+}

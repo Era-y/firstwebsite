@@ -1,0 +1,103 @@
+/* 
+မှတ်ချက်
+External stylesheet
+
+*/
+body
+{
+    background-color: rgb(70, 193, 209);
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: scroll;
+}
+
+img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*
+    အသေးစိတ်စာမျက်နှာ ၁
+*/
+.myCSSClass
+{
+    background: rgba(115, 31, 163, 0.185);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid rgb(29, 24, 24);
+    padding: 8px;
+    text-indent: 50px;
+    letter-spacing: 5px;
+}
+/*
+    အသေးစိတ်စာမျက်နှာ ၂
+*/
+.myContainer
+{
+    width: 100%;
+    background:rgb(70, 193, 209);
+    
+    display:flex;
+    justify-content:left;
+    align-items:stretch
+}
+
+#photoId
+{
+    color:darkolivegreen
+}
+
+/* ဆက်သွယ်ရန် စာမျက်နှာ*/
+.myForm
+{
+    width: 100%;  
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    border:darkred;
+}
+
+.myForm input,
+.myForm textarea,
+.myForm label
+{
+    display: block;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 09px;
+    background: rgb(194 174 206 / 19%);
+}
+.myForm #userNameId
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: #23e2d0;
+}
+.myForm label
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+/********************************************
+အစမ်းစာမျက်နှာ
+******************************/
+.cssOverwriting
+{
+    background: #ecf1f1; 
+    font-size: 15px;
+}
